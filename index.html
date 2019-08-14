@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Dotto</title>
+<style type = "text/css">
+            body{
+                background: #E1E1E1;
+                padding: 0px;
+                margin: 0px;
+            }
+            canvas{
+                display:block;
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            button{
+            	display:block;
+                margin: 0;
+            	position: absolute;
+            	top: 70%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                visibility: hidden;
+                width:100px;
+                height:60px;
+            }
+            p{
+            	margin-left: 50px;
+				margin-right: 50px;
+				margin-bottom: 10px;
+				margin-top: 30px;
+				padding-bottom: 50px;
+				padding-top: 0px;
+            }
+        </style>
+<script type="text/javascript" src="canvas-2.js"></script>
+</head>
+
+<body>
+<canvas id="ui" width="1360" height="660"></canvas>
+
+<button type="button" id="button" onclick="restart()">Restart</button>
+
+</body>
+</html>
